@@ -1,0 +1,42 @@
+{
+  "name": "nemoblanditiis",
+  "version": "1.0.0",
+  "description": "A Broccoli plugin which compiles TypeScript files.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsabellHansen/nemoblanditiis.git"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "compiler",
+    "TypeScript",
+    "javascript",
+    "js"
+  ],
+  "author": "BernhardConsidine",
+  "license": "MIT",
+  "homepage": "https://github.com/IsabellHansen/nemoblanditiis.git",
+  "dependencies": {
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-persistent-filter": "^1.0.1",
+    "clone": "^0.2.0",
+    "findup": "^0.1.5",
+    "get-caller-file": "^1.0.1",
+    "json-stable-stringify": "^1.0.0",
+    "walk-sync": "^0.2.6"
+  },
+  "peerDependencies": {
+    "typescript": "^1.6.2 || ^1.7.0 || ^1.8.0 || ^1.9.0-dev"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.3",
+    "broccoli-test-helpers": "0.0.8",
+    "chai": "^1.10.0",
+    "ensure-posix-path": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^1.21.4",
+    "rimraf": "^2.4.2"
+  }
+}
